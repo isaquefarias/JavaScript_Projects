@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"></p>
+                <div class="botoes">
+                    <div class="botao item1" onclick="clean()">AC</div>
+                    <div class="botao item2" onclick="back()"><-</div>
+                    <div class="botao item3" onclick="insert('/')" >/</div>
+                    <div class="botao item4" onclick="insert('*')">X</div>
+                    <div class="botao item5" onclick="insert('7')">7</div>
+                    <div class="botao item6" onclick="insert('8')">8</div>
+                    <div class="botao item7" onclick="insert('9')">9</div>
+                    <div class="botao item8" onclick="insert('-')">-</div>
+                    <div class="botao item9" onclick="insert('4')">4</div>
+                    <div class="botao item10" onclick="insert('5')">5</div>
+                    <div class="botao item11" onclick="insert('6')">6</div>
+                    <div class="botao item12" onclick="insert('+')">+</div>
+                    <div class="botao item13" onclick="insert('1')">1</div>
+                    <div class="botao item14" onclick="insert('2')">2</div>
+                    <div class="botao item15" onclick="insert('3')">3</div>
+                    <div class="botao item16" onclick="calcular()">=</div>
+                    <div class="botao item17" onclick="insert('0')">0</div>
+                    <div class="botao item18" onclick="insert('.')">.</div>
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
